@@ -68,12 +68,54 @@ The primary objective of this project is to demonstrate how Reinforcement Learni
 This project was developed as part of the research work titled:
 
 "Reinforcement Learning for Real-Time Autonomous Decision-Making in Simulated Environment"
+## Setup and Execution
 
-Authors:
+### Prerequisites
 
-* Bandari Nikshitha
-* Chevvakula Srisir
-* Chitla Sathwika
+* Python 3.x
+* VS Code (recommended)
+
+### Install Dependencies
+
+Open a terminal in the project directory and install the required packages:
+
+```bash
+pip install networkx==2.5
+pip install pillow==8.0.1
+pip install numpy==1.19.2
+pip install scipy==1.5.2
+```
+
+### Run the Application
+
+Open the project folder in VS Code and execute the following command in the terminal:
+
+```bash
+python game.py
+```
+
+Alternatively, on Windows:
+
+```bash
+py game.py
+```
+
+### Expected Output
+
+* A graphical game window will open.
+* Users can play the Goats & Tigers strategy game through the GUI.
+* Game interactions and generated gameplay data are stored for further analysis and reinforcement learning experiments.
+
+### Dataset Generation
+
+Gameplay data generated during matches is stored in:
+
+```plaintext
+dataset/data.txt
+```
+
+This data can be used for training and evaluating reinforcement learning models.
+
 
 ## Conclusion
 
